@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" class="load">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Detailing Services: Full, Interior, Exterior, Paint Correction | A.L Details</title>
+<meta name="description" content="Full details, interior and exterior detailing, paint correction, ceramic coating, carpet and seat shampoo, pet hair removal. Mobile across McHenry County. Book online.">
+<link rel="canonical" href="https://alautodetailing.com/services/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Detailing Services: Full, Interior, Exterior, Paint Correction | A.L Details">
+<meta property="og:description" content="Full details, interior and exterior detailing, paint correction, ceramic coating, carpet and seat shampoo, pet hair removal. Mobile across McHenry County. Book online.">
+<meta property="og:image" content="https://alautodetailing.com/assets/img/old/detail-17-1600.webp">
+<meta name="theme-color" content="#000000">
+<link rel="icon" href="/assets/img/logo.png">
+<link rel="preconnect" href="https://widget.zenbooker.com">
+<link rel="preload" as="font" type="font/woff2" href="/vendor/fonts/archivo-latin-wdth-normal.woff2" crossorigin>
+<link rel="stylesheet" href="/css/al.css?v=7c708241">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Do you come to my home?","acceptedAnswer":{"@type":"Answer","text":"Yes. A.L Details is fully mobile with no walk-in shop. The detail is done at the address you give when you book: your driveway, home or office."}},
+{"@type":"Question","name":"What areas do you serve?","acceptedAnswer":{"@type":"Answer","text":"Lake in the Hills, Crystal Lake, Huntley, Algonquin, McHenry and surrounding communities. If you're not sure you're in range, ask. A small travel fee may apply for longer drives and is agreed in advance."}},
+{"@type":"Question","name":"Do you detail SUVs and trucks?","acceptedAnswer":{"@type":"Answer","text":"Yes. A.L Details works on cars, trucks, SUVs and vans."}},
+{"@type":"Question","name":"How do I get a quote?","acceptedAnswer":{"@type":"Answer","text":"Send the quote form, call or text (224) 291-2987. The price is based on vehicle size, the service and the vehicle's condition, and any extra charge is quoted and approved before work begins."}},
+{"@type":"Question","name":"What does paint correction do?","acceptedAnswer":{"@type":"Answer","text":"Paint correction machine-polishes the clear coat to remove swirl marks and light scratches and bring back gloss. Deep defects, rock chips and rust are damage that polishing can't fix."}}
+]}
+</script>
+<script>try{if(sessionStorage.getItem("alIntro")||innerWidth<980||matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.classList.add("no-intro")}catch(e){document.documentElement.classList.add("no-intro")}</script>
+<noscript><style>.intro{display:none}.load .hero h1,.load .hero p,.pre{opacity:1!important;transform:none!important}</style></noscript>
+</head>
+<body data-page="services">
+<div class="progress" aria-hidden="true"><i id="prog"></i></div>
+<div class="promo">$20 off every service right now. <a href="/book/" data-book>Book now</a></div>
+<header class="hdr">
+ <div class="wrap">
+  <a class="brand" href="/"><img src="/assets/img/logo.png" alt="A.L Details logo" width="40" height="40">A.L Details</a>
+  <nav class="nav" aria-label="Main"><a href="/">Home</a><a href="/services/" aria-current="page">Services</a><a href="/gallery/">Gallery</a><a href="/about/">About</a></nav>
+  <a class="btn sheen" href="/book/" data-book>Book now</a>
+  <button class="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span></button>
+ </div>
+ <div class="menu" id="menu">
+  <a href="/">Home</a><a href="/services/" aria-current="page">Services</a><a href="/gallery/">Gallery</a><a href="/about/">About</a>
+  <a href="https://www.instagram.com/a.l_mobiledetails" target="_blank" rel="noopener" style="font-size:1.2rem">Instagram</a><a href="https://www.tiktok.com/@a.l_mobiledetails" target="_blank" rel="noopener" style="font-size:1.2rem">TikTok</a>
+  <a class="btn" href="/book/" data-book>Book your detail</a>
+ </div>
+</header>
+<main>
+<section class="phead"><div class="wrap"><h1 class="gloss">Detailing services.</h1><p class="lede">Everything is done by hand, in your driveway. Not sure what you need? Tell us below.</p></div></section>
+
+<section class="sec" id="selector">
+ <div class="wrap">
+  <h2 class="rise">Build your detail. <em class="hue">Book it in one tap.</em></h2>
+  <p class="lede">Pick your vehicle and what it needs. You'll see the exact service and add-ons to choose in Aiden's booking, with his starting prices.</p>
+  <div class="pick">
+   <div>
+    <fieldset><legend>What do you drive?</legend><div class="chips" id="vehChips"></div></fieldset>
+    <fieldset style="margin-top:22px"><legend>What does it need?</legend><div class="chips wrapchips" id="needChips"></div></fieldset>
+   </div>
+   <div class="rec" id="rec" aria-live="polite"><div class="rec-in">
+    <small id="recFor"></small>
+    <h3 id="recName"></h3>
+    <p id="recWhy"></p>
+    <p class="price" id="recPrice"></p>
+    <div id="recAddWrap"><p class="addh">Add-ons <span>tap to add or remove</span></p><div class="addl" id="recAdd"></div></div>
+    <p class="total" id="recTotal"></p>
+    <form class="zipgo" id="zipgo" novalidate>
+     <label for="zip">Your ZIP code</label>
+     <div class="ziprow"><input id="zip" name="zip" inputmode="numeric" autocomplete="postal-code" maxlength="5" pattern="[0-9]{5}" placeholder="60156"><button class="btn sheen" type="submit">Book this detail</button></div>
+     <p class="ziperr" id="ziperr" role="alert"></p>
+    </form>
+    <ol class="steps-mini" id="recSteps"></ol>
+   </div></div>
+  </div>
+ </div>
+</section>
+
+<section class="sec sec-coal" id="services">
+ <div class="wrap">
+  <h2 class="rise">Detailing services, <em class="hue">done by hand</em> at your door.</h2>
+  <p class="lede">The same three services you'll see when you book. Any extra charge is quoted and approved before work begins.</p>
+  <div class="cards cards3">
+   <article class="card"><div class="ph"><img loading="lazy" data-img="tan-interior" data-w="700" alt="Tan quilted leather front seats after an interior detail"></div><div class="card-b"><h3>Interior Detail</h3><p class="from">Starting at $140</p><ul><li>Full vacuum</li><li>Dashboard and console cleaning</li><li>Leather conditioning</li><li>Fabric protection</li><li>Interior window cleaning</li></ul><a class="go" href="/book/" data-book>Book Interior Detail</a></div></article>
+   <article class="card"><span class="flag">Most popular</span><div class="ph"><img loading="lazy" data-img="detail-17" data-w="700" alt="Black Ford Explorer, glossy after a full detail"></div><div class="card-b"><h3>Full Detail</h3><p class="from">Starting at $199</p><ul><li>Deep interior cleaning</li><li>Premium hand wash</li><li>Wheels and tires cleaned</li><li>6-month paint protection</li><li>UV interior protection</li><li>Crystal clear windows</li></ul><a class="go" href="/book/" data-book>Book Full Detail</a></div></article>
+   <article class="card"><div class="ph"><img loading="lazy" data-img="porsche-gt3rs-foam" data-w="700" alt="White Porsche 911 GT3 RS covered in wash foam"></div><div class="card-b"><h3>Paint Enhancement and Protection</h3><p class="from">$300 to $900+</p><ul><li>Paint enhancement + 12-month protection: $300 to $400</li><li>One-step correction + 3-year ceramic coating: $500 to $700</li><li>One-step correction + 5-year ceramic coating: $700 to $900+</li></ul><a class="go" href="/book/" data-book>Book paint work</a></div></article>
+  </div>
+  <p class="fine" style="margin-top:14px">Prices are Aiden's starting prices for a sedan and change with vehicle size and condition. Exterior-only detail? <a href="sms:+12242912987">Text (224) 291-2987</a>.</p>
+  <div class="addons"><h3>Add-ons</h3>
+   <ul><li>Pet hair removal <b>+$30</b></li><li>Seat shampoo extraction <b>+$50</b></li><li>Carpet shampoo extraction <b>+$50</b></li><li>Clay bar treatment <b>+$50</b></li><li>Interior protection <b>+$30</b></li><li>Paint protection, 3 to 5 months <b>+$30</b></li><li>Trim restoration <b>+$30</b></li><li>Excessive sand or dirt <b>+$30</b></li><li>Third-row seats <b>+$25</b></li></ul>
+  </div>
+ </div>
+ </div>
+</section>
+
+<section class="proc" id="process" aria-label="A detail, start to finish">
+ <div class="proc-pin">
+  <div class="proc-media">
+   <img data-img="porsche-gt3rs-foam" data-w="1100" alt="White Porsche 911 GT3 RS covered in foam during the hand wash">
+   <img data-img="wheel-detail" data-w="1100" loading="lazy" alt="Wheel and tire covered in cleaning foam">
+   <img data-img="detail-04" data-w="1100" loading="lazy" alt="Tan leather interior, cleaned, with a paper floor mat">
+   <img data-img="detail-17" data-w="1100" loading="lazy" alt="Black Ford Explorer finished and glossy on a brick driveway">
+  </div>
+  <div class="wrap proc-copy">
+   <h2>One detail, <em class="hue">start to finish.</em></h2>
+   <ol class="proc-list">
+    <li class="on"><b>Foam and hand wash</b><span>Hand wash and decontamination. No brushes, no tunnel.</span></li>
+    <li><b>Wheels and tires</b><span>Deep-cleaned, then dressed.</span></li>
+    <li><b>Interior</b><span>Vacuumed, wiped down, glass cleaned, leather conditioned.</span></li>
+    <li><b>Protection and walk-around</b><span>Paint protection goes on, then you look it over with Aiden.</span></li>
+   </ol>
+   <div class="proc-bar" aria-hidden="true"><i></i></div>
+  </div>
+ </div>
+</section>
+
+<section class="sec sec-white" id="why">
+ <div class="wrap split">
+  <div>
+   <h2 class="rise">What a drive-through wash <em class="hue">leaves behind.</em></h2>
+   <p class="lede">A tunnel wash rinses the surface in a few minutes. The things that make a car look tired are the ones it can't reach.</p>
+   <div class="vs"><img loading="lazy" data-img="wheel-detail" data-w="900" alt="Wheel and tire covered in cleaning foam during an A.L Details detail" width="736" height="981"></div>
+  </div>
+  <div class="gaps">
+   <div class="gap"><i></i><div><h3>Embedded dirt and grime</h3><p>Brake dust, tar and fallout bond to paint and wheels. They need decontamination and a clay bar, not a rinse.</p></div></div>
+   <div class="gap"><i></i><div><h3>Carpets and upholstery</h3><p>Spills soak below the surface. Steam and shampoo extraction pull them back out.</p></div></div>
+   <div class="gap"><i></i><div><h3>Pet hair and interior buildup</h3><p>Hair weaves into carpet fibers, and dust settles in every vent and seam.</p></div></div>
+   <div class="gap"><i></i><div><h3>Swirls in the paint</h3><p>Spinning brushes put fine scratches in clear coat. Machine polishing takes them out.</p></div></div>
+   <div class="gap"><i></i><div><h3>Faded paint, lost gloss</h3><p>Oxidation dulls color over time. Correction brings the depth back.</p></div></div>
+   <div class="gap"><i></i><div><h3>No lasting protection</h3><p>Spray wax is gone in days. A sealant or ceramic coating keeps shedding water and road salt.</p></div></div>
+  </div>
+ </div>
+</section>
+
+<section class="sec" id="faq">
+ <div class="wrap">
+  <h2 class="rise">Questions people ask <em class="hue">before booking.</em></h2>
+  <div class="faq">
+   <details><summary>Do you come to my home?</summary><p>Yes. A.L Details is fully mobile with no walk-in shop. The detail is done at the address you give when you book: your driveway, home or office. The vehicle needs to be accessible, with room to open all the doors.</p></details>
+   <details><summary>Do you need my water or power?</summary><p>An outlet and a water source help when they're available, and a garage or carport is a plus. If there's no water on site, Aiden can bring his own.</p></details>
+   <details><summary>How long does detailing take?</summary><p>It depends on the vehicle's size, its condition and the service. A full detail on a family SUV can run close to three hours. You get an arrival window when your booking is confirmed.</p></details>
+   <details><summary>What is the difference between a detail and a car wash?</summary><p>A wash cleans the surface. A detail goes after what's bonded to the paint and soaked into the interior: decontamination and clay bar outside, vacuuming, steam and shampoo extraction inside, then protection on top so it lasts.</p></details>
+   <details><summary>What does paint correction do?</summary><p>It machine-polishes the clear coat to remove swirl marks and light scratches and bring back gloss. Detailing is restorative, not repair: deep paint defects, rock chips and rust can't be polished out.</p></details>
+   <details><summary>How long does ceramic coating last?</summary><p>Aiden offers two ceramic coating packages, rated for up to 3 years and up to 5 years. How long it actually lasts depends on how the vehicle is washed and stored.</p></details>
+   <details><summary>Do you detail SUVs and trucks?</summary><p>Yes. Cars, trucks, SUVs and vans. Oversized or heavily modified vehicles may be quoted separately.</p></details>
+   <details><summary>How do I get a quote?</summary><p>Book online, or call or text <a href="tel:+12242912987">(224) 291-2987</a>. Your price is based on vehicle size, the service and condition. Things like pet hair or heavy soiling can add to it, and any extra charge is quoted and approved before work begins.</p></details>
+   <details><summary>What areas do you serve?</summary><p>Lake in the Hills, Crystal Lake, Huntley, Algonquin, McHenry and surrounding communities.</p></details>
+   <details><summary>How do I book?</summary><p>Tap <a href="/book/" data-book>Book now</a> any time, day or night. Enter your ZIP code, pick your service and a time, and you are on the schedule. You can also call or text <a href="tel:+12242912987">(224) 291-2987</a>.</p></details>
+   <details><summary>How do I pay, and what if the weather turns?</summary><p>Payment is due when the detail is finished, by debit or credit card, Zelle or cash. No checks. If heavy rain, storms, high winds or freezing temperatures get in the way, your appointment is rescheduled at no charge.</p></details>
+  </div>
+ </div>
+</section>
+
+<section class="sec book" id="contact">
+ <div class="wrap cta-end">
+  <h2 class="rise gloss">Ready to bring back that showroom shine?</h2>
+  <p class="lede">Give your vehicle the attention it deserves. Book your next detail with A.L Details.</p>
+  <div class="cta"><a class="btn sheen" href="/book/" data-book>Book your detail</a><a class="btn btn-ghost" href="tel:+12242912987">Call (224) 291-2987</a></div>
+ </div>
+</section>
+</main>
+<nav class="pager wrap" aria-label="Pages"><a href="/">1</a><a href="/services/" aria-current="page">2</a><a href="/gallery/">3</a><a href="/about/">4</a><a class="pager-next" href="/gallery/">Next: Gallery</a></nav>
+<footer class="ftr">
+ <div class="wrap">
+  <div class="ftr-grid">
+   <div><a class="brand" href="/"><img src="/assets/img/logo.png" alt="A.L Details logo" width="40" height="40" loading="lazy">A.L Details</a><p style="margin-top:12px;max-width:34ch">Premium mobile auto detailing based in Lake in the Hills, Illinois. Licensed and fully insured.</p><p style="margin-top:12px"><a href="tel:+12242912987">(224) 291-2987</a></p></div>
+   <div><h3>Services</h3><ul><li><a href="/services/">Full Detail</a></li><li><a href="/services/">Interior Detail</a></li><li><a href="/services/">Exterior Detail</a></li><li><a href="/services/">Paint Correction</a></li><li><a href="/services/">Ceramic Coating</a></li></ul></div>
+   <div><h3>Service area</h3><ul><li><a href="/areas/lake-in-the-hills/">Lake in the Hills</a></li><li><a href="/areas/crystal-lake/">Crystal Lake</a></li><li><a href="/areas/huntley/">Huntley</a></li><li><a href="/areas/algonquin/">Algonquin</a></li><li><a href="/areas/mchenry/">McHenry</a></li></ul></div>
+   <div><h3>A.L Details</h3><ul><li><a href="/gallery/">Gallery</a></li><li><a href="/about/#reviews">Reviews</a></li><li><a href="/about/">About</a></li><li><a href="https://alautodetailing.com/business-info">Business information</a></li><li><a href="/book/" data-book>Book online</a></li><li><a href="https://www.instagram.com/a.l_mobiledetails" target="_blank" rel="noopener">Instagram</a></li><li><a href="https://www.tiktok.com/@a.l_mobiledetails" target="_blank" rel="noopener">TikTok</a></li></ul></div>
+  </div>
+  <p class="legal">© <span id="yr">2026</span> A.L Details LLC.</p>
+ </div>
+</footer>
+
+<div class="bar"><a href="tel:+12242912987">Call</a><a href="sms:+12242912987">Text</a><a class="go" href="/book/" data-book>Book now</a></div>
+
+<script src="/js/media.js?v=25206481"></script>
+<script src="/js/site-data.js?v=d68531f3"></script>
+<script src="/js/al.js?v=e8eca08d" defer></script>
+</body>
+</html>
