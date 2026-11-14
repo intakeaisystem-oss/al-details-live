@@ -14,7 +14,7 @@
 <link rel="icon" href="/assets/img/logo.png">
 <link rel="preconnect" href="https://widget.zenbooker.com">
 <link rel="preload" as="font" type="font/woff2" href="/vendor/fonts/archivo-latin-wdth-normal.woff2" crossorigin>
-<link rel="stylesheet" href="/css/al.css?v=3a00c58a">
+<link rel="stylesheet" href="/css/al.css?v=6ae0a187">
 <link rel="stylesheet" href="/vendor/img-comparison-slider.css">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"AutomotiveBusiness","@id":"https://alautodetailing.com/#business",
@@ -56,22 +56,29 @@
  </div>
 </header>
 <main>
-<section class="hero" id="home">
- <div class="slides" id="slides" aria-hidden="true"><img class="on" src="/assets/img/old/detail-17-800.webp" alt="" fetchpriority="high"></div>
- <div class="lamp" aria-hidden="true"></div>
- <div class="wrap hero-in">
-  <a class="bcard" href="/book/" data-book aria-label="Book now with A.L Details">
-   <img data-img="wheel-detail" data-w="700" alt="" fetchpriority="low">
-   <span class="bcard-label">Book now</span>
-  </a>
+<section class="hero hero2" id="home">
+ <video class="hero-bg" id="heroBg" muted playsinline loop preload="none" poster="/assets/video/hero-wash-poster.webp" aria-hidden="true" data-src="/assets/video/hero-wash.mp4"></video>
+ <div class="hero-wall" aria-hidden="true">
+  <video muted playsinline loop preload="none" poster="/assets/video/short-scrub-poster.webp" data-src="/assets/video/short-scrub.mp4"></video>
+  <video muted playsinline loop preload="none" poster="/assets/video/short-bmw-poster.webp" data-src="/assets/video/short-bmw.mp4"></video>
+  <video muted playsinline loop preload="none" poster="/assets/video/short-wipe-poster.webp" data-src="/assets/video/short-wipe.mp4"></video>
+ </div>
+ <div class="wrap hero2-in">
   <div class="hero-copy">
    <h1 class="gloss">Your vehicle deserves more than a car wash.</h1>
    <p>Premium mobile detailing, paint correction and ceramic coating, done in your driveway across Lake in the Hills, McHenry County and the nearby suburbs.</p>
+   <div class="hero2-cta"><a class="btn sheen hero2-book" href="/book/" data-book>Book now</a><a class="btn btn-ghost" href="tel:+12242912987">Call (224) 291-2987</a></div>
   </div>
-  <figure class="vcard" id="vcard">
-   <video id="heroVid" muted loop playsinline preload="none" aria-label="Aiden, owner of A.L Details, introducing himself next to a black Porsche"></video>
-   <button class="hear" id="hear" type="button" hidden><b aria-hidden="true"></b><span>Hear from Aiden</span></button>
-  </figure>
+ </div>
+</section>
+
+<section class="sec shorts" id="shorts" aria-label="Short videos of A.L Details at work">
+ <div class="wrap">
+  <div class="reels shorts-row">
+   <figure class="reel"><video muted loop playsinline preload="none" poster="/assets/video/short-scrub-poster.webp" data-src="/assets/video/short-scrub.mp4" aria-label="Aiden hand-washing a foamed Porsche"></video><figcaption>Hand wash, Porsche</figcaption></figure>
+   <figure class="reel"><video muted loop playsinline preload="none" poster="/assets/video/short-bmw-poster.webp" data-src="/assets/video/short-bmw.mp4" aria-label="Blue BMW covered in foam in a driveway"></video><figcaption>Foam bath, BMW</figcaption></figure>
+   <figure class="reel"><video muted loop playsinline preload="none" poster="/assets/video/short-wipe-poster.webp" data-src="/assets/video/short-wipe.mp4" aria-label="Aiden wiping down the front of a Porsche"></video><figcaption>Detail work, up close</figcaption></figure>
+  </div>
  </div>
 </section>
 
@@ -90,6 +97,20 @@
   <p class="lede">Before and after Aiden, same angle. Every photo on this site is A.L Details' own work.</p>
   <div class="ba" id="ba"></div>
   <a class="more" href="/gallery/">See all his work</a>
+ </div>
+</section>
+
+<section class="sec intro2" id="meet">
+ <div class="wrap intro2-in">
+  <div class="intro2-copy">
+   <h2 class="rise">Meet the owner.</h2>
+   <p class="lede">A.L Details is Aiden's business. He comes to your driveway and does the detail himself. Tap the video to hear from him.</p>
+   <a class="btn sheen" href="/book/" data-book>Book with Aiden</a>
+  </div>
+  <figure class="vcard" id="vcard">
+   <video id="heroVid" muted loop playsinline preload="none" aria-label="Aiden, owner of A.L Details, introducing himself next to a black Porsche"></video>
+   <button class="hear" id="hear" type="button" hidden><b aria-hidden="true"></b><span>Hear from Aiden</span></button>
+  </figure>
  </div>
 </section>
 
@@ -158,6 +179,6 @@
 <script src="/js/media.js?v=25206481"></script>
 <script src="/js/site-data.js?v=d68531f3"></script>
 <script type="module" src="/vendor/img-comparison-slider.js"></script>
-<script src="/js/al.js?v=06b2277d" defer></script>
+<script src="/js/al.js?v=eea1e515" defer></script>
 </body>
 </html>
