@@ -35,6 +35,9 @@
 {"@type":"Offer","itemOffered":{"@type":"Service","name":"Seat and Carpet Shampoo Extraction"}},
 {"@type":"Offer","itemOffered":{"@type":"Service","name":"Pet Hair and Stain Removal"}}]}}
 </script>
+<link rel="preload" as="image" href="/assets/video/hero-wash-poster.webp" media="(max-width: 899px)" fetchpriority="high">
+<link rel="preload" as="image" href="/assets/video/short-bmw-poster.webp" media="(min-width: 900px)" fetchpriority="high">
+<link rel="preload" as="video" href="/assets/video/hero-wash.mp4" type="video/mp4" media="(max-width: 899px)">
 <script>try{if(sessionStorage.getItem("alIntro")||innerWidth<980||matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.classList.add("no-intro")}catch(e){document.documentElement.classList.add("no-intro")}</script>
 <noscript><style>.intro{display:none}.load .hero h1,.load .hero p,.pre{opacity:1!important;transform:none!important}</style></noscript>
 </head>
@@ -70,6 +73,7 @@
    <div class="hero2-cta"><a class="btn sheen hero2-book" href="/book/" data-book>Book now</a><a class="btn btn-ghost" href="tel:+12242912987">Call (224) 291-2987</a></div>
   </div>
  </div>
+ <script>(function(){var h=document.getElementById("home"),w=matchMedia("(min-width: 900px)").matches,vs=w?h.querySelectorAll(".hero-wall video"):[document.getElementById("heroBg")];h.classList.add(w?"wall":"single");if(navigator.connection&&navigator.connection.saveData)return;for(var i=0;i<vs.length;i++){var v=vs[i];v.muted=true;v.autoplay=true;v.preload="auto";v.addEventListener("playing",function(){this.classList.add("on")});v.src=v.dataset.src;var p=v.play();if(p&&p.catch)p.catch(function(){})}})();</script>
 </section>
 
 <section class="sec shorts" id="shorts" aria-label="Short videos of A.L Details at work">
@@ -179,6 +183,6 @@
 <script src="/js/media.js?v=25206481"></script>
 <script src="/js/site-data.js?v=909bfa50"></script>
 <script type="module" src="/vendor/img-comparison-slider.js"></script>
-<script src="/js/al.js?v=8f60d169" defer></script>
+<script src="/js/al.js?v=4e415cdd" defer></script>
 </body>
 </html>
